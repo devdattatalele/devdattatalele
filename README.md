@@ -62,7 +62,7 @@
 
 - 💼 LinkedIn: [in/devdattatalele](https://www.linkedin.com/in/devdattatalele)  
 - 🐦 X: [@devdattatalele](https://x.com/devdattatalele)  
-- 📧 Email: devdatta.talele@example.com
+- 📧 Email: taleledevdatta@gmail.com
 
 <br/>
 
