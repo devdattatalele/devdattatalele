@@ -1,12 +1,4 @@
-### Devdatta Talele
-
-Database internals and AI infrastructure. Mumbai.
-
-Currently deep in search and query engines: how a planner should cost
-bitmap intersection against a single index scan, why BM25 scores drift
-when term statistics are segment local, late versus eager materialization
-in columnar execution, and how to parallelize inverted index builds
-without blowing the memory budget.
+### Devdatta Talele - Database internals and AI infrastructure. Mumbai.
 
 #### Building: [plnt](https://github.com/devdattatalele/plnt) · [plnt.work](https://plnt.work)
 
@@ -26,11 +18,7 @@ as fallback.
 
 - [GIS](https://github.com/devdattatalele/GIS): CLI agent that resolves GitHub issues
   end to end, RAG knowledge base over the repo, patch generation, PR creation
-- [gmail-mcp-server](https://github.com/devdattatalele/gmail-mcp-server): Model Context
-  Protocol server for Gmail
 - [browserstack-agent-edge-cases](https://github.com/devdattatalele/browserstack-agent-edge-cases):
   three reproducible production failure modes for browser agents
-- [Krya.ai](https://github.com/devdattatalele/Krya.ai): LLM orchestration and
-  automation system
 
 taleledevdatta@gmail.com · [linkedin.com/in/devdattatalele](https://www.linkedin.com/in/devdattatalele)
