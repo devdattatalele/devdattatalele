@@ -1,72 +1,36 @@
-<img align="left" src="https://raw.githubusercontent.com/orhun/orhun/refs/heads/master/assets/ratatui-spin-dark.gif#gh-dark-mode-only">
-<img align="left" src="https://raw.githubusercontent.com/orhun/orhun/refs/heads/master/assets/ratatui-spin-light.gif#gh-light-mode-only">
+### Devdatta Talele
 
+Database internals and AI infrastructure. Mumbai.
 
-### Hey there! 👋
+Currently deep in search and query engines: how a planner should cost
+bitmap intersection against a single index scan, why BM25 scores drift
+when term statistics are segment local, late versus eager materialization
+in columnar execution, and how to parallelize inverted index builds
+without blowing the memory budget.
 
-🧑‍💻 I’m **Devdatta Talele** ([@devdattatalele](https://github.com/devdattatalele))  
-🤖 I build **Python**-based neural-network & image-processing projects, LLM orchestration tools, chatbots, and automation systems.  
-✨ Currently experimenting with **TypeScript**, **Rust**, **FastAPI**, **Supabase**, and **OpenCV**.  
+#### Building: [plnt](https://github.com/devdattatalele/plnt) · [plnt.work](https://plnt.work)
 
-[![GitHub followers](https://img.shields.io/github/followers/devdattatalele?label=followers&style=flat&color=blue)](https://github.com/devdattatalele)
-[![GitHub stars](https://img.shields.io/github/stars/devdattatalele?style=flat&color=yellow)](https://github.com/devdattatalele?tab=stars)
-[![GitHub repos](https://img.shields.io/badge/repos-59-green?style=flat)](https://github.com/devdattatalele?tab=repositories)
-[![GitHub contributions](https://img.shields.io/badge/2024%20contributions-160-orange?style=flat)](https://github.com/devdattatalele)
+A local-first agent runtime that runs entirely on your own hardware.
+One resident planner LLM receives intents and spawns short-lived,
+sandboxed micro-agents to do the work. Each agent gets exactly two
+tools, search and execute; everything else it needs lives on the
+filesystem and is reached through them. Sandboxing is a ladder
+(process, docker, microVM) so you pay isolation cost only when the
+threat model demands it. Every observable event is one line in a
+per-run JSONL audit log: if cat and grep cannot see it, it does not
+exist as state. Memory is plain files, no database, no vendor SDK,
+no cloud lock-in. Ollama by default, any OpenAI-compatible backend
+as fallback.
 
-<br clear="left"/>
+#### Also built
 
----
+- [GIS](https://github.com/devdattatalele/GIS): CLI agent that resolves GitHub issues
+  end to end, RAG knowledge base over the repo, patch generation, PR creation
+- [gmail-mcp-server](https://github.com/devdattatalele/gmail-mcp-server): Model Context
+  Protocol server for Gmail
+- [browserstack-agent-edge-cases](https://github.com/devdattatalele/browserstack-agent-edge-cases):
+  three reproducible production failure modes for browser agents
+- [Krya.ai](https://github.com/devdattatalele/Krya.ai): LLM orchestration and
+  automation system
 
-#### ⚡ Profile Stats
-
-| Metric                    | Count |
-|---------------------------|------:|
-| **Repositories**          |    59 |
-| **Stars Received**        |    57 |
-| **Followers**             |     6 |
-| **Following**             |    10 |
-| **2024 Contributions**    |   160 |
-
----
-
-#### 🛠️ Pinned Projects
-
-| **AI & Automation**                                                                                                                                     | **Computer Vision & Web**                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| • [**Krya.ai**](https://github.com/devdattatalele/Krya.ai) – LLM orchestration & automation system (FastAPI, TypeScript)                                 | • [**Self-Driving-Car-Demo**](https://github.com/devdattatalele/Self-Driving-Car-Demo) – Neural-network driving simulator                                    |
-| • [**Thingbot_AI**](https://github.com/devdattatalele/Thingbot_AI) – Multi-agent chatbot framework (Python)                                              | • [**lane-detection-And-finding-steering-anlge**](https://github.com/devdattatalele/lane-detection-And-finding-steering-anlge) – OpenCV-based lane detection |
-| • [**dare-you-succeed-whatsapp**](https://github.com/devdattatalele/dare-you-succeed-whatsapp) – WhatsApp goal-tracking bot (Python, Supabase)            | • [**website1**](https://github.com/devdattatalele/website1) – Personal portfolio & project showcase (HTML/CSS/JS)                                         |
-| • [**Greenhouse-AI**](https://github.com/devdattatalele/Greenhouse-AI) – Sensor data analytics (Python)                                                 | • [**hdge-website-macwindow**](https://github.com/devdattatalele/hdge-website-macwindow) – Marketing site for HdgeAI (HTML)                               |
-| • [**DATA-CLEANING-room**](https://github.com/devdattatalele/DATA-CLEANING-room-) – Privacy-preserving ML hackathon fork (Jupyter, Intel TDX)             | • [**stock-price-prediction**](https://github.com/devdattatalele/stock-price-prediction) – Paytm stock regression analysis (Jupyter)                       |
-| • [**liver-disease-prediction-using-UNET**](https://github.com/devdattatalele/liver-disease-prediction-using-UNET) – UNET tumor segmentation (Jupyter)   | • [**smarttrackinng**](https://github.com/devdattatalele/smarttrackinng) – Parcel tracking system with roles (JS, Supabase)                                |
-
----
-
-#### 🔭 What I’m Working On
-
-- **Maintaining**:  
-  - Krya.ai – Productionizing LLM agents & workflows  
-  - Thingbot_AI – Chatbot framework with dynamic prompt pipelines  
-
-- **Creating**  
-  - New computer-vision models for self-driving demos  
-  - WhatsApp bots for task/goal management  
-
-- **Learning**  
-  - Rust for performance-critical tools  
-  - Advanced FastAPI patterns & microservices  
-
----
-
-#### 📫 How to Reach Me
-
-- 💼 LinkedIn: [in/devdattatalele](https://www.linkedin.com/in/devdattatalele)  
-- 🐦 X: [@devdattatalele](https://x.com/devdattatalele)  
-- 📧 Email: taleledevdatta@gmail.com
-
-<br/>
-
-<div align="center">
-  <i>“Code is like humor. When you have to explain it, it’s bad.”</i><br/>
-  — Cory House
-</div>
+taleledevdatta@gmail.com · [linkedin.com/in/devdattatalele](https://www.linkedin.com/in/devdattatalele)
