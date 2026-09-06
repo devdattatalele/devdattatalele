@@ -2,8 +2,7 @@
 
 #### Building: [plnt](https://github.com/devdattatalele/plnt) · [plnt.work](https://plnt.work)
 
-A local-first micro-agents runtime that runs entirely on your own hardware.
-One resident planner LLM receives intents and spawns short-lived,
+A local-first micro-agents runtime. One resident planner LLM receives intents and spawns short-lived,
 sandboxed micro-agents to do the work. Each agent gets exactly two
 tools, search and execute; everything else it needs lives on the
 filesystem and is reached through them. Sandboxing is a ladder
